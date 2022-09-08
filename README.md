@@ -38,7 +38,7 @@ eg command based on brief. `-s A,50,130,3 B,30,45,2 C,20 D,15 -o B A B` output f
 It uses Java 8+
 
 1. Open IDE of your choice
-2. Or if using cli navigate to source and compile all classes
+2. Or if using cli navigate to source and compile all classes using `javac ProductScanSimulator.java`
 3. enter command line args listed above either on cli or in IDE CLI args
 4. Run the code
 
