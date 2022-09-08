@@ -27,7 +27,11 @@ to seed enter either `--seed` or `-s` followed by either
 
 When you have finished typing product information after typing `-s` or `--seed`,  type `--order` or `-o` to start typing the order
 the order should just contain the name, case-sensitive, of the products that you want to order. It works irrespective of
-the order but the name should match the product name in the seed
+the order but the name should match the product name in the seed.
+
+so the final command should look like this `-s{or --seed} {items entered in format under seed section} -o{or --order} {name of items case sensitive}`. It is done this way as no data is persisted and the application is required to be run on a CLI
+
+eg command based on brief. `-s A,50,130,3 B,30,45,2 C,20 D,15 -o B A B` output for this command is £0.95
 
 ## Running the project
 
